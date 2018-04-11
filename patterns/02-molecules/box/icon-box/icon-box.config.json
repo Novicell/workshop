@@ -1,0 +1,16 @@
+{
+    "title": "Icon Box",
+    "status": "prototype",
+    "context": {
+        "heading": {
+            "text": "Icon Box header"
+        },
+        "iconBoxContent": "Dette er teksten til et icon",
+        "link": {
+            "url": "url",
+            "text": "Link text",
+            "target":"",
+            "title": "Link title"
+        }
+    }
+}

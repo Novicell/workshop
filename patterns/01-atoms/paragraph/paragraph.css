@@ -1,0 +1,17 @@
+/*
+* Element: paragraphs
+*/
+
+/*Setting document variables*/
+
+.paragraph {
+
+    &--hero {
+        margin-bottom: 30px;
+
+        @media (--viewport-sm-min) {
+            font-size: 21px;
+        }
+    }
+}
+

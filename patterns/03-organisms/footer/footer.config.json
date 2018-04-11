@@ -1,0 +1,9 @@
+{
+	"title": "footer",
+	"status": "prototype",
+	"context": {
+		"customColumnHeader": {
+			"text": "Spørgsmål? Skriv endelig :)"
+		}
+	}
+}

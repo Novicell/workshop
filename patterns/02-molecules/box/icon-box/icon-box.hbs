@@ -1,0 +1,18 @@
+<article class="icon-box {{ class }}">
+	<div class="icon-box__inner">
+		<div class="icon-box__content">
+            <div class="icon-box__icon">
+                {{#block "icon-box-icon"}}
+                    {{ render '@svg-icon' }}
+                {{/block}}
+            </div>
+			{{ render '@heading--column' }}
+			{{#block "iconBoxContent"}}
+				<p>{{ iconBoxContent }}</p>
+			{{/block}}
+		</div>
+        {{#if link }}
+            {{ render '@link' }}
+        {{/if}}
+	</div>
+</article>
